@@ -1,0 +1,5 @@
+br\maqclick\conexao\Conexao.class
+br\maqclick\view\TelaEquipamento$1.class
+br\maqclick\view\TelaEquipamento.class
+br\maqclick\dao\EquipamentoDAO.class
+br\maqclick\model\Equipamento.class
