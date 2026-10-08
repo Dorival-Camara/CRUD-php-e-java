@@ -1,0 +1,99 @@
+body {
+    background: #0a0a0a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    border-bottom: 3px solid #f5c400;
+    padding: 15px 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header span,
+h2 {
+    color: #f5c400;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #a3a3a3;
+}
+
+input,
+select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-top: 4px;
+    background: #111;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+button,
+.botao {
+    background: #f5c400;
+    color: #000;
+    border: 0;
+    padding: 8px 14px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.perigo {
+    background: #c0392b;
+    color: #fff;
+}
+
+.aviso {
+    background: #111;
+    border-left: 4px solid #f5c400;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    color: #f5c400;
+    text-align: left;
+    border-bottom: 2px solid #f5c400;
+    padding: 8px;
+}
+
+td {
+    border-bottom: 1px solid #262626;
+    padding: 8px;
+}
+
+.pesquisa {
+    display: flex;
+    gap: 8px;
+}
+
+.pesquisa input {
+    margin-top: 0;
+}
+
+form.inline {
+    display: inline;
+}
